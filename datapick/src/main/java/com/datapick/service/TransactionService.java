@@ -1,5 +1,6 @@
 package com.datapick.service;
 
+import com.datapick.dto.TransactionDTO;
 import com.datapick.repository.TransactionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,9 +12,7 @@ public class TransactionService {
     @Autowired
     private TransactionRepository transactionRepository;
 
-    public void createTransaction(TransactionDTO transactionDTO){
+    public void createTransaction(TransactionDTO transaction){
 
     }
-
-
 }
